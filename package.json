@@ -1,0 +1,41 @@
+{
+  "name": "js-app-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple template for developing and deploying basic JS apps.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomekStarosta/basic-js-boilerplate.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Webpack",
+    "Babel",
+    "SASS",
+    "CSS",
+    "HTML",
+    "Template",
+    "Boilerplate"
+  ],
+  "author": "Tomasz Starosta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomekStarosta/basic-js-boilerplate/issues"
+  },
+  "homepage": "https://github.com/tomekStarosta/basic-js-boilerplate#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0"
+  }
+}
