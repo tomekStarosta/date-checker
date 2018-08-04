@@ -29,7 +29,7 @@ module.exports = {
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
       title: 'Boilerplate for JS apps',
-      template: 'src/index.html'
+      template: 'src/template.html'
     })
   ]
 }

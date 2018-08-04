@@ -4,7 +4,7 @@
   "description": "Simple template for developing and deploying basic JS apps.",
   "main": "main.js",
   "scripts": {
-    "dev": "webpack --watch --config webpack.dev.js",
+    "dev": "webpack-dev-server --watch --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
   "repository": {
@@ -41,6 +41,7 @@
     "style-loader": "^0.21.0",
     "webpack": "^4.16.4",
     "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {}
