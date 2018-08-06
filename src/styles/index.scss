@@ -1,11 +1,10 @@
-.wrap {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
+// import google fonts
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,400');
+// import flatpickr css
+@import '../../node_modules/flatpickr/dist/flatpickr.min.css';
+@import '../../node_modules/flatpickr/dist/themes/material_green.css';
+// import global styles
+@import 'base/global';
 
-.hello {
-  color: #555;
-  font-size: 5rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
+// import modules
+@import 'modules/date-input';

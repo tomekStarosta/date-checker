@@ -28,7 +28,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      title: 'Boilerplate for JS apps',
+      title: 'Date Checker',
       template: 'src/template.html'
     })
   ]
