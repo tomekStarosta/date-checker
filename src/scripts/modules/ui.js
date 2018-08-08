@@ -6,8 +6,6 @@ import calculate from './calculate';
 
 const ui = {
 
-  pickrInstance: null,
-
   initPicker: function() {
     const dateInput = document.querySelector('.input-group__input');
   
@@ -48,6 +46,8 @@ const ui = {
       outputDiv.removeChild(outputDiv.firstChild);
     }
 
+    // reset calendar and input field
+    ui.pickrInstance.jumpToDate(Date.now());
     ui.pickrInstance.clear();
   }
 
