@@ -1,0 +1,21 @@
+.btn {
+  font-size: 1.1rem;
+  padding: .4rem 1.8rem;
+  border: 1px solid #999;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all .2s ease-out;
+
+  &:link,
+  &:visited {
+    color: $textMain;
+    background-color: #fff;
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: $themeMain;
+    border-color: $themeMain;
+  }
+}
+

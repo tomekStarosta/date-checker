@@ -28,7 +28,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      title: 'Date Checker',
+      title: 'Date Diff Calc',
       template: 'src/template.html'
     })
   ]

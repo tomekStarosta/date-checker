@@ -1,0 +1,18 @@
+.input-group {
+  display: inline-block;
+
+  &__label {
+    display: block;
+    text-align: left;
+    font-size: 1.3rem;
+    margin-bottom: .7rem;
+  }
+
+  &__input {
+    border: 1px solid #999;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    padding: .35rem;
+    width: 19.2425rem;
+  }
+}

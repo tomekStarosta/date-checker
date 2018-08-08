@@ -4,7 +4,11 @@
 @import '../../node_modules/flatpickr/dist/flatpickr.min.css';
 @import '../../node_modules/flatpickr/dist/themes/material_green.css';
 // import global styles
+@import 'base/variables';
 @import 'base/global';
-
 // import modules
-@import 'modules/date-input';
+@import 'modules/container';
+@import 'modules/heading';
+@import 'modules/input-group';
+@import 'modules/output';
+@import 'modules/btn';
