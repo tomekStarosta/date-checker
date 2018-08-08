@@ -1,21 +1,11 @@
 {
-  "name": "date-checker",
+  "name": "date-difference-calculator",
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
     "dev": "webpack-dev-server --watch --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
-  "keywords": [
-    "JavaScript",
-    "Webpack",
-    "Babel",
-    "SASS",
-    "CSS",
-    "HTML",
-    "Template",
-    "Boilerplate"
-  ],
   "author": "Tomasz Starosta",
   "license": "MIT",
   "devDependencies": {
@@ -28,6 +18,7 @@
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.9.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.21.0",
     "webpack": "^4.16.4",
